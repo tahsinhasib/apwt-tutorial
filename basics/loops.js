@@ -11,7 +11,20 @@ for (let i in a) {
 }
 
 
-console.log('all three');
+console.log('forEach');
 a.forEach((element, index, array) => {
     console.log(element, index, array);
 });
+
+
+// ab of a
+console.log('ab of a');
+for (ab of a) {
+    console.log(ab);
+}
+
+// ab in a
+console.log('ab in a');
+for (ab in a) {
+    console.log(ab);
+}
