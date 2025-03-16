@@ -10,7 +10,7 @@ console.log(a);
 
 let b = 20;
 // let b = 30;
-
+// must be declared before use
 // redeclaration of let is not allowed
 // reassignment of let is allowed
 
