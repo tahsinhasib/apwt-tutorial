@@ -1,4 +1,4 @@
-a = [2,3,5]
+let a = [2,3,5]
 
 console.log('index');
 for (let i in a) {
@@ -19,12 +19,12 @@ a.forEach((element, index, array) => {
 
 // ab of a
 console.log('ab of a');
-for (ab of a) {
+for (let ab of a) {
     console.log(ab);
 }
 
 // ab in a
 console.log('ab in a');
-for (ab in a) {
+for (let ab in a) {
     console.log(ab);
 }

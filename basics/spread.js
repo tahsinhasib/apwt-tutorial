@@ -23,6 +23,7 @@ const lcar = { ...car, ...mCar };
 console.log(lcar);      //  only color will be updated
 
 
+// destructing
 const car1 = ["BMW", "X5", "black"];
 
 const [suv,, sed] = car1;
