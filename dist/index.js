@@ -52,4 +52,10 @@ let G = {
 };
 console.log(G);
 console.log(G.name);
+//generic
+function addGeneric(arg, a) {
+    return arg;
+}
+let addGeneric = add(3);
+console.log(addGeneric);
 //# sourceMappingURL=index.js.map
