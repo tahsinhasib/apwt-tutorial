@@ -52,10 +52,10 @@ let G = {
 };
 console.log(G);
 console.log(G.name);
-//generic
-function addGeneric(arg, a) {
-    return arg;
-}
-let addGeneric = add(3);
-console.log(addGeneric);
+// //generic
+// function addGeneric<T, U>(arg: T, a: U): T {
+//     return arg
+// }
+// let addGeneric = add<number, string>(3, "abc")
+// console.log(addGeneric);
 //# sourceMappingURL=index.js.map

@@ -73,10 +73,10 @@ let G: Iuser = {
 console.log(G);
 console.log(G.name);
 
-//generic
-function addGeneric<T, U>(arg: T, a: U): T {
-    return arg
-}
+// //generic
+// function addGeneric<T, U>(arg: T, a: U): T {
+//     return arg
+// }
 
-let addGeneric = add<number, string>(3, "abc")
-console.log(addGeneric);
+// let addGeneric = add<number, string>(3, "abc")
+// console.log(addGeneric);
